@@ -2,10 +2,10 @@
 <h3>100dayscss.com</h3>
 
 <h3>Me marque nas suas redes se estiver participando</h3>
-<p>Instagram:<a href='https://www.instagram.com/arhaianysouza'> https://www.instagram.com/arhaianysouza</p>
-<p>Github: <a href='https://github.com/RhaianySouza'>github.com/RhaianySouza</p>
-<p>Tiktok: <a href='https://www.tiktok.com/@rhaiany_souza'>www.tiktok.com/@rhaiany_souza</p>
-<p>YouTube: <a href='www.youtube.com/@RhaianySouza'>www.youtube.com/@RhaianySouza</p>
+<p>Instagram:<a href='https://www.instagram.com/arhaianysouza'> https://www.instagram.com/arhaianysouza</a></p>
+<p>Github: <a href='https://github.com/RhaianySouza'>github.com/RhaianySouza</a></p>
+<p>Tiktok: <a href='https://www.tiktok.com/@rhaiany_souza'>www.tiktok.com/@rhaiany_souza</a></p>
+<p>YouTube: <a href='www.youtube.com/@RhaianySouza'>www.youtube.com/@RhaianySouza</a></p>
 <hr/>
 <p>Dia 01:https://rhaianysouza.github.io/100dayscss.com/day01/100dayscss_day01.html | <a href='https://www.youtube.com/watch?v=okJQ8a8C-TA'>Youtube</a></p>
 <p>Dia 02:https://rhaianysouza.github.io/100dayscss.com/day02/100dayscss_day02.html | <a href='www.youtube.com/@RhaianySouza'>Youtube - Em Breve</a></p>
