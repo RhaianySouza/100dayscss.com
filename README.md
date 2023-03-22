@@ -6,7 +6,7 @@
 <p>Github: <a href='https://github.com/RhaianySouza'>github.com/RhaianySouza</p>
 <p>Tiktok: <a href='https://www.tiktok.com/@rhaiany_souza'>www.tiktok.com/@rhaiany_souza</p>
 <p>YouTube: <a href='www.youtube.com/@RhaianySouza'>www.youtube.com/@RhaianySouza</p>
-<hr></hr>
+<hr>
 <p>Dia 01:https://rhaianysouza.github.io/100dayscss.com/day#01/100dayscss_day01.html | <a href='https://www.youtube.com/watch?v=okJQ8a8C-TA'>Youtube</a></p>
 <p>Dia 02:https://rhaianysouza.github.io/100dayscss.com/day#02/100dayscss_day02.html | <a href='www.youtube.com/@RhaianySouza'>Youtube - Em Breve</a></p>
 <p>Dia 03:https://rhaianysouza.github.io/100dayscss.com/day#03/100dayscss_day03.html | <a href='www.youtube.com/@RhaianySouza'>Youtube - Em Breve</a></p>
