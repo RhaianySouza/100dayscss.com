@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #E56262;
+  color: #333;
+	font-family: "Courier New", "Courier", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.center div{
+  left: -45px;
+  top:-45px;
+  background: #fff;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 10px 10px 10px 3px #0003;
+  animation: 2s ease-in-out alternate infinite;
+}
+.center .cicle1{
+  width: 90px;
+  height: 90px;
+  animation-name: zoom1;
+}
+@keyframes zoom1 {
+  0%,70%{transform: scale(100%);}
+  100%{transform: scale(0%);}
+}
+.center .cicle2{
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  animation-name: zoom2;
+}
+@keyframes zoom2 {
+  0%,50%{transform: scale(100%);}
+  90%,100%{transform: scale(0%);}
+}
+.center .cicle3{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  animation-name: zoom3;
+}
+@keyframes zoom3 {
+  0%{transform: scale(100%);}
+  70%,100%{transform: scale(0%);}
+}

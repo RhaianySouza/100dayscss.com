@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #272C34;
+  color: #333;
+	font-family: "Courier New", "Courier", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.cicle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #7DDFFC;
+  overflow: hidden;
+  -moz-animation: sky 5s ease-in-out infinite;
+  animation: sky 5s ease-in-out infinite;
+}
+@keyframes sky {
+  0%{opacity: 1;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+}
+.cicle .sun{
+  width: 40px; 
+  height: 40px;
+  background: #FFEF00;
+  border-radius: 90%;
+  position: relative;
+  clear: both;
+  top: 20%;
+  transform-origin: 250% 250%;
+  -moz-animation: sun 5s ease-in-out infinite;
+  animation: sun 5s ease-in-out infinite;
+}
+@keyframes sun{
+  0%{transform: rotate(-40deg);}
+  50%{transform: rotate(45deg);}
+  100%{transform: rotate(130deg);}
+}
+.cicle .pyramid{
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: 10%;
+}
+.cicle .pyramid-1,.cicle .pyramid-2{
+ width: 100px;
+ height: 50px;
+ background: #fff;
+ position: absolute;
+ margin: 0 auto;
+ left: 23%;
+ top: 11px;
+}
+.cicle .pyramid-1{
+ clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+ -moz-animation: py1 5s ease;
+  animation: py1 5s ease
+}
+.cicle .pyramid-2{
+  background: #bbb;
+  clip-path: polygon(65% 100%, 50% 0, 100% 100%);
+  -moz-animation: py2 5s ease infinite;
+  animation: py2 5s ease infinite;
+}
+@keyframes py1{
+ 0%{background: #fff;}
+ 70%{background: #bbb;}
+ 100%{background: #bbb;}
+}
+@keyframes py2{
+ 0%{background: #aaa;}
+ 90%{background: #fff;}
+ 100%{background: #fff;}
+}
+.cicle .shadow{
+  width: 200%;
+  height: 50px;
+
+  background: #3333;
+  clip-path: polygon(12% 0%, 100% 10%, 38% 0%);
+  position: absolute;
+  z-index: 2;
+  -moz-animation: shadow 5s linear infinite;
+  animation: shadow 5s linear infinite;
+}
+@keyframes shadow{
+ 0%{clip-path: polygon(12% 0%, 100% 10%, 38% 0%);}
+ 50%{clip-path: polygon(12% 0%, 30% 50%, 38% 0%);}
+ 100%{clip-path: polygon(12% 0%, 0% 10%, 38% 0%);}
+}
+.cicle .sand{
+  width: 100%;
+  height: 80px;
+  background: #F0DE75;
+  position: relative;
+  z-index: 1;
+}
