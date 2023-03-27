@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #264057;
+  color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.painel{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #0009;
+}
+.painel .header{
+  background: #5F98CD;
+  width: 100%;
+  display: flex;
+}
+.painel .header>div{
+  float: left;
+}
+.painel .menu{
+  width: 50px;
+  height: 50px;  
+  text-align: center;
+}
+.painel .menu>div{
+  width: 35px;
+  height: 20px;
+  position: relative;
+  padding: 15px 8px;
+}
+.painel .menu span{
+  float: left;
+  height: 4px;
+  background: #fff;
+  border-radius: 5px;
+}
+.painel .menu .cicle{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-left: 5px;
+}
+.painel .menu .top{
+  width: calc(100% - 15px);
+  position: relative;
+  top: 3px;
+}
+.painel .menu .bottom{
+  width: 100%;
+  clear: both;
+  margin: 5px 0;
+}
+.painel .fa-search{
+  width: 50px;
+  height: 50px;
+  line-height: 2.5;
+  font-size: 20px;
+}
+.painel .header .text{
+  width: calc(100% - 100px);
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  line-height: 3;
+  
+}
+.painel .menu,.painel .fa-search{
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+}
+.painel .Notifications>div{
+  height: 60px;
+  border-left:solid #EBEBEB 3px ;
+  margin: 0 15px;
+  padding: 11.5px 5px ;
+  margin-left: 27px;
+  transition: all .5s;
+  font-size: 15px;
+  color: #666;
+}
+.painel .Notifications>div:hover{
+  color:#5F98CD;
+}
+.painel .Notifications>div i{
+  font-size: 12px;
+  font-style: initial;
+}
+.painel .Notifications>div p{
+  margin: 0 0px 0px 6px;
+}
+.painel .Notifications>div span{
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  position: relative;
+  border: solid 3px #5F98CD;
+  border-radius: 100%;
+  margin-left: -13px;
+  top: 2px;
+  background: #fff;
+}
