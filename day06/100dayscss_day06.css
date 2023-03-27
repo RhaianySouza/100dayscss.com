@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #CA7C4E;
+  background-image: linear-gradient(45deg, #EEBE6C 0%, #CA7C4E 100%);
+  color: #786450;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.profile{
+  width: 320px;
+  height: 300px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 15px 15px 20px #0005;
+}
+.profile .image{
+  width: 80px;
+  height: 80px;
+  margin: 25px auto 0 auto;
+}
+.profile .label{
+  margin: 20px 0;
+}
+.profile .image div{
+  border-radius: 100%;
+  border: solid 2px;
+  position: relative;
+  z-index: 1;
+  transition: all 2s;
+}
+.profile .image .cicle1{
+  width: 80px;
+  height: 80px;
+  border-color: #786450 #786450 #786450 transparent;
+}
+.profile .image:hover .cicle1{
+  transform: rotate(360deg);
+}
+.profile .image .cicle2{
+  width: 72px;
+  height: 72px;
+  border-color: #786450 transparent #786450 #786450 ;
+  top: -80px;
+  left: 3px;
+}
+.profile .image:hover .cicle2{
+  transform: rotate(-360deg);
+}
+.profile .image img{
+  width: 69px;
+  height: 69px;  
+  border-radius: 100%;
+  position: relative;
+  top: -152px;
+  left: 0px;
+}
+.profile .name{
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+.profile .name h1{
+  font-size: 15px;
+  margin: 0;
+}
+.profile .name p{
+  font-size: 13px;
+  margin: 0 0 15px;
+}
+.profile .name button{
+  width: 150px;
+  border: solid 2px #786450;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 5px;
+  background: transparent;
+  color: #786450;
+  transition: all .5s;
+}
+.profile .name button:hover{
+  background: #786450;
+  color: #fff;
+}
+.profile .status{
+  width: 120px;
+  float: left;
+}
+.profile .status h3{
+  margin: 0;
+  font-size: 18px;
+  line-height: .9;
+}
+.profile .status div{
+  height: 57px;
+  background: #F5E8DF;
+  margin: 0;
+  padding: 32px 0 10px 0;
+  text-align: center;
+  font-size: 13px;
+
+}
+.profile .status div:nth-child(2){
+  border-top: solid #fff 1px;
+  border-bottom: solid #fff 1px;
+}
