@@ -101,6 +101,20 @@
   font-size: 15px;
   color: #666;
 }
+.painel .Notifications>div>div{
+  position: relative;
+  transition: all 1s;
+  animation: slide ease 1s  both;
+}
+.painel .Notifications #Notification-1>div{
+  animation-delay: 0s;
+}
+.painel .Notifications #Notification-2>div{
+  animation-delay: .3s;
+}
+.painel .Notifications #Notification-3>div{
+  animation-delay: .3s;
+}
 .painel .Notifications>div:hover{
   color:#5F98CD;
 }
@@ -121,4 +135,14 @@
   margin-left: -13px;
   top: 2px;
   background: #fff;
+  box-shadow: #fff 0 0 0px 3px;
 }
+@keyframes slide{
+  0%,50%{
+    top:50px;
+    opacity: .0;
+  }100%{
+    top:0px;
+    opacity: 1;
+  }
+}  
