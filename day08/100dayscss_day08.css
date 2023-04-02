@@ -23,49 +23,21 @@
   transform: translate(-50%,-50%);
 }
 .ball{
-  transform: rotate(calc(40deg * var(--i)));
-}
-.ball span{
   background: #fff;
-  border-radius: 100%;
-  display: block;
-  position: absolute;
-  animation: move 4s infinite both;
-  left: -45px;
-  top: -45px
+  left: 50%;
+  top: 50%;
 }
-.ball#ball-1 span{
+.ball #ball-0>div{
   width: 90px;
   height: 90px;
 }
-.ball#ball-2 span,
-.ball#ball-3 span{
+.ball #ball-1>div,.ball #ball-2>div{
   width: 50px;
   height: 50px;
-  left: -25px;
-  top: -25px
 }
-.ball#ball-4 span,
-.ball#ball-5 span,
-.ball#ball-6 span,
-.ball#ball-7 span,
-.ball#ball-8 span,
-.ball#ball-9 span{
+.ball #ball-3>div,
+.ball #ball-4>div, .ball #ball-5>div, .ball #ball-6>div,
+.ball #ball-7>div, .ball #ball-8>div, .ball #ball-9>div{
   width: 30px;
   height: 30px;
-  left: -15px;
-  top: -15px
-}
-.ball#ball-4 span,
-.ball#ball-5 span,
-.ball#ball-6 span{
-  animation-direction: reverse;
-}
-@keyframes move {
-  0%{
-    transform: rotate(0deg) translate(0,0);
-  }
-  100%{
-    transform: rotate(calc(40deg * var(--i))) translate(calc(10px * var(--i)));
-  }
 }

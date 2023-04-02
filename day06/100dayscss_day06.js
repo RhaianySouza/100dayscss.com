@@ -3,7 +3,7 @@ function cont(a,x){
     var interval = setInterval(function(){
         if(i<a){i+=1; x.innerHTML = i;}
         else{clearInterval(interval)}
-    },5)
+    },10)
 }
 document.addEventListener('DOMContentLoaded', function() {
     cont(523,document.getElementsByClassName("status")[0].getElementsByTagName('div')[0].getElementsByTagName('h3')[0]);
