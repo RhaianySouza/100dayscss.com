@@ -2,8 +2,8 @@
 <h3><a href='https://100dayscss.com/'>100dayscss.com</a></h3>
 
 <h3>Me marque nas suas redes se estiver participando</h3>
-<p>Instagram:<a href='https://www.instagram.com/arhaianysouza'>@arhaianysouza</a></p>
 <p>Github: <a href='https://github.com/RhaianySouza'>/RhaianySouza</a></p>
+<p>Instagram:<a href='https://www.instagram.com/arhaianysouza'>@arhaianysouza</a></p>
 <p>Tiktok: <a href='https://www.tiktok.com/@rhaiany_souza'>@rhaiany_souza</a></p>
 <p>YouTube: <a href='https://www.youtube.com/@RhaianySouza'>@RhaianySouza</a></p>
 <hr/>
