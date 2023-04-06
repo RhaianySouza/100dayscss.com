@@ -1,5 +1,5 @@
 <h1>100DAYSCSSCHALLENGE</h1>
-<h3><a href='https://100dayscss.com/'>100dayscss.com</a></h3>
+<h3><a href='https://100dayscss.com/' target='top'>100dayscss.com</a></h3>
 
 <h3>Me marque nas suas redes se estiver participando</h3>
 <p>Github: <a href='https://github.com/RhaianySouza'>/RhaianySouza</a></p>
