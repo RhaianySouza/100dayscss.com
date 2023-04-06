@@ -1,9 +1,0 @@
-@keyframes dropsRain{
-    0%{
-        transform: rotate3d(40px,-320px,0px) scaleX(1) scaleY(1) rotate(17deg);
-    }85%{
-        transform: rotate3d(0px,0px,0px) scaleX(1) scaleY(1) rotate(17deg);
-    }100%{
-        transform: rotate3d(0px,0px,0px) scaleX(2) scaleY(1) rotate(17deg);
-    }
-}
