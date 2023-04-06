@@ -123,7 +123,7 @@
 -------------------------------------------------*/
 .figure .drop div{
   position: absolute;
-  top: calc(-20px * var(--i) / 2 );
+  top: -20px;
   left: calc(-20px + 50px * var(--i));
   width: 8px;
   height: 8px;
@@ -175,9 +175,9 @@
 .figure .drop.medium{
   opacity: .7;
 }
-.figure .drop.medium div::after
+.figure .drop.medium div::after,
 .figure .drop.medium div::before{
-  font-size: 15px;
+  font-size: 10px;
 }
 .figure .drop.medium div::after{
   top: calc(-23px * var(--i) / 10);
@@ -207,9 +207,9 @@
 .figure .drop.small{
   opacity: .5;
 }
-.figure .drop.small div::after
+.figure .drop.small div::after,
 .figure .drop.small div::before{
-  font-size: 12px;
+  font-size: 8px;
 }
 .figure .drop.small div::after{
   top: calc(-15px * var(--i) / 10);;
@@ -220,18 +220,18 @@
   left: 2px;
 }
 .figure .drop.small div::before{
-  -webkit-animation-duration: calc(0.2s + var(--y) / 2);
-  -webkit-animation-delay: calc(var(--y) * 10 / 12);
+  -webkit-animation-duration: calc(0.8s + var(--y) / 2);
+  -webkit-animation-delay: calc(var(--y) / 10 * 12);
 
-  animation-duration: calc(0.2s + var(--y) / 2);
-  animation-delay: calc(var(--y) * 10 / 12);
+  animation-duration: calc(0.8s + var(--y) / 2);
+  animation-delay: calc(var(--y) / 10 * 12);
 }
 .figure .drop.small div::after{
   -webkit-animation-duration: calc(0.5s + var(--y) / 8);
-  -webkit-animation-delay: calc(var(--y) * 10 / 18);
+  -webkit-animation-delay: .4s;
 
-  animation-duration: calc(0.4s + var(--y) / 8);
-  animation-delay: calc(var(--y) * 10 / 18);
+  animation-duration: calc(0.5s + var(--y) / 8);
+  animation-delay: .4s;
 }
 
 /*Show
@@ -248,7 +248,6 @@
   width: 130PX;
   font-size: 18px;
   margin: 15px 20px;
-  height: 50px;
 }
 .show .temperature{
   width: 90px;
@@ -275,12 +274,14 @@
   }
 }
 @-webkit-keyframes dropsRain{
-  0%{
-    transform: rotate3d(40px,-320px,0px) scaleX(1) scaleY(1) rotate(17deg);
+  0%{  
+    transform: scaleX(1) scaleY(1);
   }85%{
-    transform: rotate3d(0px, 0px, 0px) scaleX(1) scaleY(1) rotate(17deg);
-  }100%{
-    transform: rotate3d(0px, 0px, 0px) scaleX(3) scaleY(0) rotate(0deg);
+    transform:  scaleX(2) scaleY(.7);
+  }
+  100%{
+    top: 320px;
+    transform: scaleX(2) scaleY(.5);
   }
 }
 @keyframes moonShow{
@@ -291,11 +292,14 @@
   }
 }
 @keyframes dropsRain{
-  0%{
-    transform: rotate3d(40px,-320px,0px) scaleX(1) scaleY(1) rotate(17deg);
+  0%{  
+    transform: scaleX(1) scaleY(1);
   }85%{
-    transform: rotate3d(0px, 0px, 0px) scaleX(1) scaleY(1) rotate(17deg);
-  }100%{
-    transform: rotate3d(0px, 0px, 0px) scaleX(3) scaleY(0) rotate(0deg);
+    transform:  scaleX(2) scaleY(.7) rotate(0deg);
+  }
+  100%{
+    top: 330px;
+    transform: scaleX(2) scaleY(.5) rotate(0deg);
   }
 }
+
