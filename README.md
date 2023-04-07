@@ -22,6 +22,6 @@
 <p>Dia 07: <a href='https://rhaianysouza.github.io/100dayscss.com/day07/100dayscss_day07.html '>Preview</a> | 
   <a href='https://www.youtube.com/watch?v=-RWrFf8vr1c&list=PLa1K0cfWivWOBD3V5WlGw-m0XbmiNyqM-&index=7' target='blank'>Youtube</a></p>
 <p>Dia 08: <a href='https://rhaianysouza.github.io/100dayscss.com/day08/100dayscss_day08.html '>Preview</a> | 
-  <a href='https://www.youtube.com/@RhaianySouza' target='blank'>Youtube - Em Breve</a></p>
+  <a href='https://www.youtube.com/watch?v=XQDC-CFFgf8&list=PLa1K0cfWivWOBD3V5WlGw-m0XbmiNyqM-&index=8' target='blank'>Youtube</a></p>
 <p>Dia 09: <a href='https://rhaianysouza.github.io/100dayscss.com/day09/100dayscss_day09.html '>Preview</a> | 
   <a href='https://www.youtube.com/@RhaianySouza' target='blank'>Youtube - Em Breve</a></p>
