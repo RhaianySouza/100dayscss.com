@@ -21,6 +21,5 @@ function clock(){
     
 }
 document.addEventListener('DOMContentLoaded', function() {
-point();clock();
-setInterval(clock,60000);
+    point();clock();setInterval(clock,60000);
 },false);

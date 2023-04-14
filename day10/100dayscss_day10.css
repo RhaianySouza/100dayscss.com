@@ -67,6 +67,7 @@ svg circle.z{
 }
 .beat .fa{
   color: #F85B5B;
+  -webkit-animation: beats .9s linear infinite;
   animation: beats .9s linear infinite;
   margin: 0 5px 0 0;
 }
