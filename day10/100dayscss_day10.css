@@ -51,6 +51,7 @@ svg circle.z{
   stroke-width: 3;
   transform-origin: center;
   stroke-dasharray: 630;
+  -webkit-animation: spinner 120s linear infinite;
   animation: spinner 120s linear infinite;
 }
 .date{
