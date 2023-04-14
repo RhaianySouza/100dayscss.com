@@ -13,15 +13,14 @@ function clock(){
     var day = new Date(Date.now()).toLocaleString('en-US', {day: '2-digit'});      
     var mon = new Date(Date.now()).toLocaleString('en-US', {month: 'short'});    
     var year = new Date(Date.now()).getFullYear();
-    var hour = new Date(Date.now()).getHours();
-    var minute = new Date(Date.now()).getMinutes();
+    var hour = new Date(Date.now()).toLocaleString('en-US', {hour:"2-digit", minute:"2-digit",hour12:false});
     var week = new Date(Date.now()).toLocaleString('en-US', {weekday:'short'});
 
-    document.getElementById('clock').innerHTML = `${hour}:${minute}`;
+    document.getElementById('clock').innerHTML = `${hour}`;
     document.getElementById('date').innerHTML = `${week} ${day} ${mon} ${year}`;
     
 }
 document.addEventListener('DOMContentLoaded', function() {
-point();
-setInterval(clock(),60000);
+point();clock();
+setInterval(clock,60000);
 },false);
