@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: relative;
+  margin: 0 auto; 
+}
+.photos{
+  float: left;
+  width: 192px;
+  height: 192px;
+  margin: 1%;
+}
+.photos .plus{
+  background: #EC6565;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -25px;
+  transform: scale(2);
+  opacity: 0;
+  transition: all .4s;
+  z-index: 2;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.photos:hover .plus{
+  transform: scale(1);
+  opacity: 1;
+}
+.photos .plus::before{
+  background: #fff;
+  content: '';
+  width: 14px;
+  height: 2px;
+  display: block;
+  top: calc(50% - 0px);
+  left: calc(50% - 7px);
+  position: relative;
+}
+.photos .plus::after{
+  background: #fff;
+  content: '';
+  width: 2px;
+  height: 14px;
+  display: block;
+  top:  calc(50% - 8px);
+  left: calc(50% - 1px);
+  position: relative;
+}
+.photos .overlay{
+  background: #000;
+  opacity: 0;
+  width: 192px;
+  height: 192px;
+  position: absolute;
+  z-index: 1;
+  transition: all .6s;
+}
+.photos:hover .overlay{
+  opacity: .4;  
+}
+.photos img{
+  width: 100%;
+}
