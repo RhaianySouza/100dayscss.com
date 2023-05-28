@@ -33,5 +33,5 @@
   <a href='https://www.youtube.com/watch?v=oRhWMwFiNpU&list=PLa1K0cfWivWOBD3V5WlGw-m0XbmiNyqM-&index=12' target='blank'>Youtube</a></p>
 <p>Dia 13: <a href='https://rhaianysouza.github.io/100dayscss.com/day13/100dayscss_day13.html '>Preview</a> | 
   <a href='https://www.youtube.com/watch?v=oRhWMwFiNpU&list=PLa1K0cfWivWOBD3V5WlGw-m0XbmiNyqM-&index=13' target='blank'>Youtube</a></p>
-<p>Dia 14: <a href='https://rhaianysouza.github.io/100dayscss.com/day13/100dayscss_day14.html '>Preview</a> | 
+<p>Dia 14: <a href='https://rhaianysouza.github.io/100dayscss.com/day14/100dayscss_day14.html '>Preview</a> | 
   <a href='https://www.youtube.com/watch?v=oRhWMwFiNpU&list=PLa1K0cfWivWOBD3V5WlGw-m0XbmiNyqM-&index=14' target='blank'>Youtube</a></p>
