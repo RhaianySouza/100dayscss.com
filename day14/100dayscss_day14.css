@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #4B4841;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: relative;
+  margin: 0 auto; 
+}
+.card{
+  width: 320px;
+  height: 180px;
+  position: relative;
+  top: 110px;
+  left: 40px;
+}
+.card img{
+  position: relative;
+  top: 57px;
+  left: 90px;
+}
+.card .flip .front,.card .flip .back{
+  background: #FFCE4E;
+  border-radius: 5px;
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card .flip{
+  width: 100%;
+  height: 180px;
+  transform: rotatex(0deg);
+  transition: all 1s;
+  box-shadow: 8px 10px 15px 0 #000;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.card:hover .flip{
+  transform: rotatex(180deg);
+  box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.card .flip .front{
+  z-index: 1;
+  transform: rotatex(0deg);
+}
+.card:hover .flip .front{
+  transform: rotatex(0deg);
+}
+.card .flip .front img{
+  animation: cicle .3s alternate infinite;
+  transform-origin: 50% 100%;
+}
+.card .flip .front .street{
+  width: 160px;
+  height: 3px;
+  position: relative;
+  top: 49px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.card .flip .front .street div{
+  width: calc(2px + var(--i) * 5px);
+  height: 5px;
+  position: absolute;
+  background: #4B4841;
+  border-radius: 5px;
+  left: 160px;
+  animation: street infinite 1s calc(var(--y)/2 + .8s);
+}
+.card .flip .back{
+  transform: rotatex(180deg);
+}
+.card .flip .back img{
+  animation: helicopter .6s alternate infinite;
+  position: relative;
+  z-index: 1;
+}
+.card .flip .back .cloud{
+  top: -35px;
+  position: relative;
+  width: 160px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.card .flip .back .cloud div{
+  width: calc(2px + var(--i) * 5px);
+  height: 5px;
+  position: absolute;
+  background: #4B4841;
+  border-radius: 5px;
+  left: 160px;
+  top: calc(25px + var(--i) * 15px );
+  animation: cloud infinite 1s calc(var(--y)/10 + .8s);
+}
+@keyframes street{
+  0%{
+    left: 160px;
+  }
+  100%{
+    left: -160px;
+  }
+}
+@keyframes cicle{
+  0%{
+    transform: scaley(1);
+  }100%{
+    transform: scaley(1.1);
+  }
+}
+
+@keyframes cloud{
+  0%{
+    left: calc(160px + var(--i) * 25px );
+  }
+  100%{
+    left: -160px;
+  }
+}
+@keyframes helicopter{
+  0%{
+    transform: translateY(0px);
+  }100%{
+    transform: translateY(10px);
+  }
+}
